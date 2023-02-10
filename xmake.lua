@@ -1,5 +1,9 @@
-set_languages("c++latest")
-set_warnings("everything")
+add_rules("mode.debug")
+
+set_project("mytest_1")
+
+set_languages("c++2a")
+set_warnings("-Wall", "-Wconversion","-Weffc++","-Wextra","-Wpedantic","-Wshadow","-Wunused")
 
 target("main")
     set_kind("binary")
