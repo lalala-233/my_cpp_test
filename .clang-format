@@ -85,11 +85,11 @@ AlignArrayOfStructures: Left
 #   AcrossEmptyLines: true
 #   AcrossComments: false
 AlignConsecutiveAssignments:
-  Enabled: false
-  AcrossEmptyLines: true
-  AcrossComments: true
-  AlignCompound: true
-  PadOperators: true
+    Enabled: false
+    AcrossEmptyLines: true
+    AcrossComments: true
+    AlignCompound: true
+    PadOperators: true
 
 # 说明: 对齐连续的位域分隔符(:)。
 # 类型: AlignConsecutiveStyle
@@ -238,7 +238,7 @@ AlwaysBreakTemplateDeclarations: Yes
 
 # 说明: 应被解析为属性/限定符而不是宏名的字符串数组。这对于语言扩展或静态分析器注释很有用。
 AttributeMacros:
-  - __capability
+    - __capability
 
 # 说明: 函数调用中的参数(arguments)的"堆积占行(Bin-Pack)"方式。
 # 类型: Boolean
@@ -293,53 +293,53 @@ BreakBeforeBraces: Custom
 # 类型: BraceWrappingFlags
 # 取值:
 BraceWrapping:
-  # case 语句后的大括号另起一行
-  AfterCaseLabel: true
-  # class 语句后的大括号另起一行
-  AfterClass: true
+    # case 语句后的大括号另起一行
+    AfterCaseLabel: true
+    # class 语句后的大括号另起一行
+    AfterClass: true
 
-  # 说明: 控制语句中的大括号的换行方式。
-  #       控制语句如: if、else、for、while、try、do、switch、case、default...
-  # 类型: BraceWrappingAfterControlStatementStyle
-  # 取值:
-  # (BWACS_Never     文件配置项: Never    ) 不在左大括号之前换行。
-  # (BWACS_MultiLine 文件配置项: MultiLine) 仅在多行控制语句后对左大括号换行。
-  # (BWACS_Always    文件配置项: Always   ) 始终在左大括号之前换行。
-  AfterControlStatement: Always
+    # 说明: 控制语句中的大括号的换行方式。
+    #       控制语句如: if、else、for、while、try、do、switch、case、default...
+    # 类型: BraceWrappingAfterControlStatementStyle
+    # 取值:
+    # (BWACS_Never     文件配置项: Never    ) 不在左大括号之前换行。
+    # (BWACS_MultiLine 文件配置项: MultiLine) 仅在多行控制语句后对左大括号换行。
+    # (BWACS_Always    文件配置项: Always   ) 始终在左大括号之前换行。
+    AfterControlStatement: Always
 
-  # enum 后的大括号另起一行
-  AfterEnum: true
-  # extern 后的大括号另起一行
-  AfterExternBlock: true
-  # 函数定义后的大括号另起一行
-  AfterFunction: true
-  # namespace 后的大括号另起一行
-  AfterNamespace: true
+    # enum 后的大括号另起一行
+    AfterEnum: true
+    # extern 后的大括号另起一行
+    AfterExternBlock: true
+    # 函数定义后的大括号另起一行
+    AfterFunction: true
+    # namespace 后的大括号另起一行
+    AfterNamespace: true
 
-  # 说明: 在 ObjC 的定义，如接口(interfaces)、实现(implementations)的大括号之后换行。
-  #       @autoreleasepool 和 @synchronized 块根据 AfterControlStatement 项换行。
-  # AfterObjCDeclaration: false
+    # 说明: 在 ObjC 的定义，如接口(interfaces)、实现(implementations)的大括号之后换行。
+    #       @autoreleasepool 和 @synchronized 块根据 AfterControlStatement 项换行。
+    # AfterObjCDeclaration: false
 
-  # struct 定义后的大括号另起一行
-  AfterStruct: true
-  # union 定义后的大括号另起一行
-  AfterUnion: true
-  # catch 前的大括号另起一行
-  BeforeCatch: true
-  # else 前的大括号另起一行
-  BeforeElse: true
-  # lambda 的大括号另起一行
-  BeforeLambdaBody: true
-  # do 与 while 中的大括号另起一行
-  BeforeWhile: true
-  # 缩进大括号
-  IndentBraces: false
-  # 说明: 是否将空函数的左右大括号都单独一行。
-  SplitEmptyFunction: false
-  # 说明: 是否将空记录类型(record: e.g. Class、struct、union)的左右大括号都单独一行。
-  SplitEmptyRecord: false
-  # 时都将空 namespace 的左右大括号都单独一行
-  SplitEmptyNamespace: false
+    # struct 定义后的大括号另起一行
+    AfterStruct: true
+    # union 定义后的大括号另起一行
+    AfterUnion: true
+    # catch 前的大括号另起一行
+    BeforeCatch: true
+    # else 前的大括号另起一行
+    BeforeElse: true
+    # lambda 的大括号另起一行
+    BeforeLambdaBody: true
+    # do 与 while 中的大括号另起一行
+    BeforeWhile: true
+    # 缩进大括号
+    IndentBraces: false
+    # 说明: 是否将空函数的左右大括号都单独一行。
+    SplitEmptyFunction: false
+    # 说明: 是否将空记录类型(record: e.g. Class、struct、union)的左右大括号都单独一行。
+    SplitEmptyRecord: false
+    # 时都将空 namespace 的左右大括号都单独一行
+    SplitEmptyNamespace: false
 
 # 说明: Concept 声明的换行方式。
 # 类型: BreakBeforeConceptDeclarationsStyle
@@ -459,9 +459,9 @@ FixNamespaceComments: true
 # 例1:
 # ForEachMacros: ['FOREACH', 'RANGES_FOR', 'BOOST_FOREACH']
 ForEachMacros:
-  - foreach
-  - Q_FOREACH
-  - BOOST_FOREACH
+    - foreach
+    - Q_FOREACH
+    - BOOST_FOREACH
 
 # 说明: 应该被解析为条件(conditional)而不是函数调用的宏数组。
 # 类型: List of Strings
@@ -820,8 +820,9 @@ RawStringFormats: []
 # RAS_Middle  (文件配置项: Middle ) 引用居中两边留空。
 ReferenceAlignment: Pointer
 
-# 说明: 指定是否在注释代码块后重排缩进。
-ReflowComments: false
+# 说明: 是否格式化注释。
+# 注：行格式化注释的选项由 SpacesInLineCommentPrefix 决定
+ReflowComments: true
 
 # 说明: 删除可选的控制语句大括号(if、else、for 和 while)。
 RemoveBracesLLVM: false
@@ -911,24 +912,24 @@ SpaceBeforeParens: Custom
 # 类型: SpaceBeforeParensCustom
 # 取值:
 SpaceBeforeParensOptions:
-  # 在控制语句关键字后插入空格
-  AfterControlStatements: false
-  # 在 FOREACH 宏后插入空格
-  AfterForeachMacros: false
-  # 在函数声明语句中插入空格
-  AfterFunctionDeclarationName: false
-  # 在函数定义语句中插入空格
-  AfterFunctionDefinitionName: false
-  # 在 IF 宏后插入空格
-  AfterIfMacros: false
-  # 在运算符重载的函数中插入空格
-  AfterOverloadedOperator: false
-  # 在 requires 语句后插入空格
-  AfterRequiresInClause: false
-  # 在 requires 表达式后插入空格
-  AfterRequiresInExpression: false
-  # 在非空圆括号前插入空格
-  BeforeNonEmptyParentheses: false
+    # 在控制语句关键字后插入空格
+    AfterControlStatements: false
+    # 在 FOREACH 宏后插入空格
+    AfterForeachMacros: false
+    # 在函数声明语句中插入空格
+    AfterFunctionDeclarationName: false
+    # 在函数定义语句中插入空格
+    AfterFunctionDefinitionName: false
+    # 在 IF 宏后插入空格
+    AfterIfMacros: false
+    # 在运算符重载的函数中插入空格
+    AfterOverloadedOperator: false
+    # 在 requires 语句后插入空格
+    AfterRequiresInClause: false
+    # 在 requires 表达式后插入空格
+    AfterRequiresInExpression: false
+    # 在非空圆括号前插入空格
+    BeforeNonEmptyParentheses: false
 
 # 说明: 范围形式的 for 之后左圆括号之前是否有空格。
 SpaceBeforeRangeBasedForLoopColon: false
@@ -975,10 +976,10 @@ SpacesInCStyleCastParentheses: false
 #       要禁用最大值，请将其设置为 -1, 除此之外，最大值优先于最小值。
 # 类型: SpacesInLineComment
 # 取值:
-# 注：当 ReflowComments 设置为 true 时会将注释的代码当作注释并进行重新缩进
+# 注：此选项只有在 ReflowComments 设置为 true 时才有效
 SpacesInLineCommentPrefix:
-  Minimum: 1
-  Maximum: 1
+    Minimum: 1
+    Maximum: 1
 
 # 说明: 是否在 ( 之前和 ) 之后插入空格。
 SpacesInParentheses: false
@@ -1021,11 +1022,11 @@ UseTab: Never
 # 说明: 指明对空格敏感且不应被更改的宏的数组。
 # 例1:
 WhitespaceSensitiveMacros:
-  - STRINGIZE
-  - PP_STRINGIZE
-  - BOOST_PP_STRINGIZE
-  - NS_SWIFT_NAME
-  - CF_SWIFT_NAME
+    - STRINGIZE
+    - PP_STRINGIZE
+    - BOOST_PP_STRINGIZE
+    - NS_SWIFT_NAME
+    - CF_SWIFT_NAME
 
 ---
 Language: Cpp
@@ -1044,26 +1045,26 @@ BreakBeforeBraces: Custom
 
 # 说明: 每个单独的大括号的换行方式，当 BreakBeforeBraces 设置为 BS_Custom 时生效。
 BraceWrapping:
-  AfterCaseLabel: false
-  AfterClass: false
-  AfterControlStatement: Never
-  AfterEnum: false
-  AfterExternBlock: false
-  AfterFunction: false
-  AfterNamespace: false
-  # 说明: 在 ObjC 的定义，如接口(interfaces)、实现(implementations)的大括号之前换行。
-  #       @autoreleasepool 和 @synchronized 块根据 AfterControlStatement 项换行。
-  AfterObjCDeclaration: true
-  AfterStruct: false
-  AfterUnion: false
-  BeforeCatch: false
-  BeforeElse: false
-  BeforeLambdaBody: false
-  BeforeWhile: false
-  IndentBraces: false
-  SplitEmptyFunction: false
-  SplitEmptyRecord: false
-  SplitEmptyNamespace: false
+    AfterCaseLabel: false
+    AfterClass: false
+    AfterControlStatement: Never
+    AfterEnum: false
+    AfterExternBlock: false
+    AfterFunction: false
+    AfterNamespace: false
+    # 说明: 在 ObjC 的定义，如接口(interfaces)、实现(implementations)的大括号之前换行。
+    #       @autoreleasepool 和 @synchronized 块根据 AfterControlStatement 项换行。
+    AfterObjCDeclaration: true
+    AfterStruct: false
+    AfterUnion: false
+    BeforeCatch: false
+    BeforeElse: false
+    BeforeLambdaBody: false
+    BeforeWhile: false
+    IndentBraces: false
+    SplitEmptyFunction: false
+    SplitEmptyRecord: false
+    SplitEmptyNamespace: false
 
 # 说明: 适用协议(protocol conformance)列表项的"堆积占行(Bin-Pack)"方式。
 # 类型: BinPackStyle
