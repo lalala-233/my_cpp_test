@@ -595,7 +595,7 @@ IndentGotoLabels: true
 # PPDIS_None       (文件配置项: None      ) 不缩进预处理指令。
 # PPDIS_AfterHash  (文件配置项: AfterHash ) 在 # 后缩进指令。缩进字符数请参阅: PPIndentWidth.
 # PPDIS_BeforeHash (文件配置项: BeforeHash) 在 # 前缩进指令。
-IndentPPDirectives: AfterHash
+IndentPPDirectives: BeforeHash
 
 # 说明: 是否缩进 requires 语句。
 #       仅 RequiresClausePosition 为 OwnLine 或 WithFollowing 时生效。
