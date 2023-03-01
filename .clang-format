@@ -393,7 +393,7 @@ ColumnLimit: 80
 # CommentPragmas: '^ Comment pragma: keep'
 # #include <vector> // Comment pragma: keep
 # 把这个字符串写在注释里，该行不会被格式化。
-CommentPragmas: ""
+# CommentPragmas: ""
 
 # 说明: 是否压缩命名空间(Namespaces)。
 # 类型: Boolean
