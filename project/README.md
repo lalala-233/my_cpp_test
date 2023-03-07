@@ -8,6 +8,6 @@
 
 ## parser_toy
 
-对 [json-tutorial](https://github.com/miloyip) 的学习。
+对 [json-tutorial](https://github.com/miloyip/json-tutorial) 的学习。
 
 是一个教程。
