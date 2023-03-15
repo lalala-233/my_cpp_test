@@ -639,7 +639,7 @@ MacroBlockBegin: ""
 MacroBlockEnd: ""
 
 # 说明: 要保留的最大连续空行数。
-MaxEmptyLinesToKeep: 1
+MaxEmptyLinesToKeep: 0
 
 # 说明: 命名空间(Namespace)的内容部分的缩进方式。
 # 类型: NamespaceIndentationKind
