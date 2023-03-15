@@ -1,5 +1,4 @@
-#pragma once
-
+// ./header/printer.hpp
 namespace my_cpp   // 声明（declaration）
 {
     class printer
@@ -10,6 +9,9 @@ namespace my_cpp   // 声明（declaration）
 
         template <class T>
         printer& operator<<(T o);
+
+        printer() = default;
+        ~printer() = default;
     };
 }   // namespace my_cpp
 
@@ -32,4 +34,6 @@ namespace my_cpp
         std::cout << (o) << std::endl;
         return *this;
     }
+
+    inline printer print;
 }   // namespace my_cpp
