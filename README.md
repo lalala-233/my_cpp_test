@@ -1,7 +1,5 @@
 # My Cpp Test
 
-README:
+这个项目记载着一些我平时学习 C++ 的笔记与想法。
 
-[English](docs/README_en.md).
-
-[简体中文](docs/README_zh.md)。
+鸽鸽——
